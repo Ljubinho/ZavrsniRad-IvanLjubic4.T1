@@ -1,0 +1,160 @@
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pictures/background.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Exo 2', sans-serif !important;
+
+    
+}
+.navbar {
+    border-bottom: #f54444 5px solid;
+    
+}
+
+
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.team-list{
+    margin-top: 1em;
+}
+
+
+body .Tracks{
+    text-align: center;
+}
+
+.index-card{
+    margin-top: 1em !important;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 60px ;
+
+}
+
+/* .container{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+} */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+body .google-map{
+    margin-top: 2%;
+}
+
+header .navbar{
+  
+    
+    
+}
+
+
+footer .copyright{
+    margin-bottom: 0 !important;
+} 
+
+div .carousel-inner .d-block{
+    height: 800px;
+}
+
+/* body h2{
+    text-align: center;
+    margin: 25px;
+} */
+
+div .card-more{
+    margin-left: 10px;
+}
+
+/* div .welcome{
+    text-align: center;
+} */
+
+div .welcome-row{
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+}
+
+div .welcome-text{
+    text-align: center;
+}
+
+div  .card-title{
+    text-align: center;
+}
+
+a .btn .btn-primariy{
+    text-align: center;
+    
+}
+
+div .history-text{
+    text-indent: 30px;
+    text-decoration-line: inherit;
+   
+}
+
+.kontenjer {
+    margin-top: 3em !important;
+    margin-bottom: 2em !important;
+}
+
+.container-push-down {
+    padding-bottom: 10em !important;
+}
+
+.container-push-up {
+    margin-top: 10em !important;
+}
+
+.popout-hover {
+    transition: all 0.5s ease !important;
+    transform: scale(1) !important;
+}
+.popout-hover img {
+    transition: all 0.5s ease !important;
+    filter: grayscale(0) blur(0px);
+    transform: scale(1) !important;
+}
+.popout-hover img:hover {
+    filter: grayscale(1) blur(0px);
+    transform: scale(1.04) !important;
+    border-radius: 6px !important;
+}
+.popout-hover:hover {
+    transform: scale(1.04) !important;
+}
+
+.row-margin-remove {
+    margin-top: 0 !important;
+}
+
+.team-list h5 {
+    margin-bottom: .18em !important;
+}
+
+.nav-link {
+    font-weight: 800 !important;
+}
